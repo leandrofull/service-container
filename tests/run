@@ -1,0 +1,14 @@
+<?php
+
+require __DIR__ . '/bootstrap.php';
+
+use LeandroFull\Test\Assert;
+
+$testFiles = ['service_container_test.php'];
+
+foreach ($testFiles as $testFile) {
+    Assert::setFileName($testFile);
+    require $testFile;
+}
+
+return Assert::printResults();

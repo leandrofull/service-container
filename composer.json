@@ -1,0 +1,19 @@
+{
+    "name": "leandrofull/service-container",
+    "type": "library",
+    "license": "proprietary",
+    "description": "Service Container",
+    "homepage": "https://github.com/leandrofull/task-manager",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Leandro Full",
+            "email": "leandromsilva2209@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LeandroFull\\ServiceContainer\\": "src/"
+        }
+    }
+}
